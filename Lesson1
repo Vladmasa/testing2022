@@ -1,14 +1,99 @@
+\\Task 1
 public class HelloWorld{
 
      public static void main(String []args){
         
         double a = 36.6;
         double b = 32+(a*1.8);
-       
+        double c = a + 273.15;
         
         System.out.println(a);
         System.out.println(b);
+        System.out.println(c);
         
         
      }
+}
+\\Task2
+public class HelloWorld{
+
+    public static void main(String []args){
+
+    int a = 3;
+    int b = 1;
+    int c = 0;
+    
+  if(a > b) 
+    {
+        System.out.println("win");
+    }
+    else
+        if(b < c)
+        {
+            System.out.println("draw");
+        }
+        else
+        {
+            System.out.println("lose");
+        }
+    }
+}
+Task 3 Area 
+public class HelloWorld{
+
+    public static void main(String []args){
+
+    double b = 18;
+    double a1 = 2;
+    double r = 15;
+    
+   double Sb = Math.pow(b, a1);
+    double Sr = Math.PI*Math.pow(r, a1);
+    
+     System.out.println(Sr);
+    System.out.println(Sb);
+    \\\task5?
+    }
+}
+   public class HelloWorld{
+
+    public static void main(String []args){
+
+    int a = 15;
+    int b = 100;
+   
+    
+   if(Math.abs(a) > Math.sqrt(b))
+    {
+       b = b * 5;
+    }
+    
+    System.out.println(b);
+    
+
+    }
+}
+\\\task 4 
+public class HelloWorld{
+
+    public static void main(String[]args){
+
+    int a = 4;
+    int b = 5;
+    int c = 6;
+    
+    int v = a + b + c;
+    
+    System.out.println(v);
+    
+    if(a > v) 
+    {
+        System.out.println("a is bigger");
+    }
+    else
+    {
+        System.out.println("Summa is bigger");
+    }
+    
+    }
 }
