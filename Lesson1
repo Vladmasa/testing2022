@@ -1,4 +1,4 @@
-\\Task 1
+\\HWTask 1
 public class HelloWorld{
 
      public static void main(String []args){
@@ -7,14 +7,65 @@ public class HelloWorld{
         double b = 32+(a*1.8);
         double c = a + 273.15;
         
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        System.out.println("C= " + a);
+        System.out.println("F= " +b);
+        System.out.println("K= " +c);
         
         
      }
 }
-\\Task2
+Task7
+public class HelloWorld{
+
+     public static void main(String []args){
+         int x = 47;
+         
+         
+         int y = ( x % 2 );
+         
+         if (y != 0)
+         {
+             System.out.println("Odd");
+         }
+         
+         else
+         {
+             System.out.println("Even");
+         }
+         
+         int z = ( x % 10 );
+         
+         if (z == 7)
+         {
+             System.out.println("Yes");
+         }
+         
+         else
+         {
+             System.out.println("No");
+         }
+     }
+}
+task8
+public class HelloWorld{
+
+     public static void main(String []args){
+         double a = -56;
+         double b = 99;
+         double x = Math.abs(a);
+         
+         if (x > b)
+         {
+             System.out.println(a / 2);
+         }
+         
+         else
+         {
+             System.out.println(a);
+         }
+     }
+}
+\\HWTask2
 public class HelloWorld{
 
     public static void main(String []args){
@@ -38,6 +89,29 @@ public class HelloWorld{
         }
     }
 }
+HWTask 2a
+public class HelloWorld{
+
+     public static void main(String []args){
+         int score = 3;
+         int win = 3;
+         int lost = 0;
+         int draw = 1;
+         
+         boolean X = ( score == win );
+         boolean Y = ( score == lost );
+         boolean Z = ( score == draw );
+         
+         System.out.println("Did this team win?");
+         System.out.println(X);
+         
+         System.out.println("Did this team lost?");
+         System.out.println(Y);
+         
+         System.out.println("Did this team play in a draw?");
+         System.out.println(Z);
+     }
+}
 Task 3 Area 
 public class HelloWorld{
 
@@ -50,10 +124,18 @@ public class HelloWorld{
    double Sb = Math.pow(b, a1);
     double Sr = Math.PI*Math.pow(r, a1);
     
-     System.out.println(Sr);
-    System.out.println(Sb);
-    \\\task5?
-    }
+     if ( Sr > Sb )
+         {
+             System.out.println("The circle's area is bigger =" + Sr);
+             
+         }
+         
+        else if ( Sr < Sb )
+         {
+             System.out.println("The square's area is bigger =" + Sb);
+             
+         }
+     }
 }
    public class HelloWorld{
 
