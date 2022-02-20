@@ -1,1 +1,38 @@
+///Task12
+//Task1 HW
+     public class HelloWorld{
+    
+    public static void print()
+    {
+        for(int i = 1; i <= 10; i++)
+        {
+            
+            {
+                System.out.print("*");
+            }
+         
+        }
+    }
+    
+    public static void main(String []args){
+        
+        print();
+        
+    }
+}
+//TAsk2 HW
 
+//Task 4 HW- kostyl
+public class HelloWorld{
+        
+           public static void main(String []args){
+        
+    
+        
+         for(int j = 1; j <= 4; j++)
+         {
+         System.out.println( "1 2 3 4 5 6 7 8 9 10");
+         }
+     }
+}
+//Task 9
