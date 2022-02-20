@@ -1,4 +1,25 @@
 ///Task12
+public class HelloWorld{
+
+     public static void main(String []args){
+        
+        double vklad = 1000;
+        
+        for(int i = 1; i <= 36; i++)
+        {
+            if(vklad * 0.02 >= 30)
+            {
+                System.out.println("Month = " + i);
+                break;
+            }
+            else
+            {
+                vklad = vklad + vklad * 0.02;    
+            }
+        }
+     }
+}
+
 //Task1 HW
      public class HelloWorld{
     
@@ -20,7 +41,28 @@
         
     }
 }
-//TAsk2 HW
+//TAsk2 HW - Sucsess
+import java.util.Scanner;
+
+    public class HelloWorld{
+  
+    public static void main(String []args){
+        
+   Scanner sc = new Scanner(System.in);
+   
+   int a = sc.nextInt();
+   
+    for(int i = 1; i <= a; i++)
+        {
+            
+            {
+                System.out.print("*");
+            }
+         
+        }
+    
+    }
+}
 
 //Task 4 HW- kostyl
 public class HelloWorld{
