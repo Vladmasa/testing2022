@@ -1,4 +1,66 @@
-///Task12
+Task1
+public class HelloWorld{
+
+     public static void main(String []args){
+        
+      for (int i =1; i<=10; i++)
+      {
+          System.out.print (" 20 ");
+      }
+     }
+Task 4
+    public class HelloWorld{
+
+     public static void main(String []args){
+        
+        int sum = 0;
+        
+        for(int i = 100; i <= 500; i++)
+        {
+            System.out.println("i = " + i);
+            System.out.println("old sum = " + sum);
+            sum = sum + i;
+            System.out.println("new sum = " + sum);
+            System.out.println("==================");
+        }
+        
+        System.out.println("sum = " + sum);
+     }
+}
+///Task12_`1
+        double deposit = 1000;
+        
+        for(int i = 1; i <= 36; i++)
+        {
+             // System.out.println("old deposit = " + deposit);
+           
+             //System.out.println("new deposit = " + deposit * 0.02);
+             // System.out.println("==================");
+           
+            
+             if(deposit * 0.02 >= 30)
+            {
+                System.out.println("Month profit over 30 $ = " + i);
+                 System.out.println("Overall profit = " + deposit*0.02 * i);
+                 System.out.println("==================");
+              continue;
+            }
+            else
+            {
+                deposit = deposit + deposit * 0.02;    
+            }
+           // for(int j = 1; j <= 36; j++)
+      // {
+          //if(deposit * 0.02 >= 1200)
+          // {
+            //  System.out.println("Month = " + j);
+             //  break;
+          // }
+       
+        }
+     }
+}
+12_2
 public class HelloWorld{
 
      public static void main(String []args){
@@ -11,6 +73,27 @@ public class HelloWorld{
             {
                 System.out.println("Month = " + i);
                 break;
+            }
+            else
+            {
+                vklad = vklad + vklad * 0.02;    
+            }
+        }
+     }
+}
+12_3
+public class HelloWorld{
+
+     public static void main(String []args){
+        
+        double vklad = 1000;
+        
+        for(int i = 1; i <= 1000; i++)
+        {
+            if(vklad * 0.02 >= 1200)
+            {
+                System.out.println("Month = " + i);
+         break;
             }
             else
             {
